@@ -1,0 +1,15 @@
+#include <iostream>
+using namespacem std;
+
+int main (){
+    int month, day, year;
+    std::cout << "Enter a date (MM DD YYYY): ";
+    cout << "enter month (1-12):";
+    std::cin >> month;
+    cout << "enter day (1-31):";
+    std::cin >> day;
+    cout << "enter year (e.g., 2023):";
+    std::cin >> year;
+    std::cout << "You entered: " << month << "/" << day << "/" << year << std::endl;
+    return 0;
+}
